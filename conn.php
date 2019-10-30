@@ -8,7 +8,7 @@ $dbname = "flutter_login";
 // Create connection
 $connect = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
-if (!$connect) {
+if (!$connect ) {
     // die("Connection failed: " . mysqli_connect_error());
 }
 else
