@@ -4,7 +4,7 @@
     $user = $_POST['username'];
     $pass = $_POST['password'];
 
-    $q = $connect->query("select * from admin where username ='".$user."' and password = '".$pass."'  ");
+    $q = $connect->query(" select * from admin where username ='".$user."' and password = '".$pass."'  ");
     $result = array();
 
     while($fetchData = $q->fetch_assoc()){
