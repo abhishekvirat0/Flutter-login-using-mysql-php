@@ -4,6 +4,11 @@
 
 A new Flutter application.
 
+  The app checks the mysql database if the user is present or not.if user is present and password is correct the app redirects them to Admin or  member panel 
+   i.e if Login details are of Admin he/she is redirected to Admin Panel 
+otherwise Member panel if password is correct
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
